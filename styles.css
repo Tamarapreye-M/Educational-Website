@@ -38,6 +38,7 @@ nav {
 ul {
 	display: flex;
 	list-style: none;
+	flex-wrap: wrap;
 }
 ul li {
 	margin: 0px 10px;
@@ -48,6 +49,9 @@ a {
 	margin: 0.5rem;
 	text-transform: uppercase;
 	color: white;
+}
+nav a:hover{
+	color: red;
 }
 .text-box {
 	display: flex;
